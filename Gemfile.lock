@@ -105,6 +105,8 @@ GEM
     puma (4.3.6)
       nio4r (~> 2.0)
     rack (2.2.3)
+    rack-app (7.6.4)
+      rack
     rack-proxy (0.6.5)
       rack
     rack-test (1.1.0)
@@ -200,6 +202,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   puma (~> 4.1)
+  rack-app
   rails (~> 6.0.3, >= 6.0.3.4)
   sass-rails (>= 6)
   selenium-webdriver
